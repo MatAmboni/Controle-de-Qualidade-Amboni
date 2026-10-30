@@ -1,0 +1,8 @@
+{
+  "name": "Remix Amboni Alimentos - Controle de Qualidade ERP",
+  "description": "Sistema ERP de Controle de Qualidade para Amboni Alimentos com sincronização em tempo real multiusuário, gerador avançado de boletins WhatsApp, gestão de lotes e tolerâncias técnicas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

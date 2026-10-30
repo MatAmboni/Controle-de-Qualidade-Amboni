@@ -1,0 +1,258 @@
+{
+  "categories": [
+    {
+      "id": "cat-tio-alemao",
+      "name": "Arroz Tio Alemão Parbo - 5kg",
+      "fields": [
+        "Umidade",
+        "Polimento",
+        "Quebra"
+      ],
+      "specs": [
+        {
+          "name": "Umidade",
+          "unit": "%",
+          "min": 11.5,
+          "max": 13,
+          "target": 12.5
+        },
+        {
+          "name": "Polimento",
+          "unit": "graus",
+          "min": 30,
+          "max": 40,
+          "target": 35
+        },
+        {
+          "name": "Quebra",
+          "unit": "%",
+          "min": 0,
+          "max": 5,
+          "target": 3
+        }
+      ],
+      "description": "Linha nobre para empacotamento 5kg"
+    },
+    {
+      "id": "cat-casca-parbo",
+      "name": "Arroz em Casca Parbo",
+      "fields": [
+        "Umidade",
+        "Renda",
+        "Quebra",
+        "Tp1",
+        "Resíduo",
+        "Inteiros"
+      ],
+      "specs": [
+        {
+          "name": "Umidade",
+          "unit": "%",
+          "min": 11,
+          "max": 13.5,
+          "target": 12.5
+        },
+        {
+          "name": "Renda",
+          "unit": "%",
+          "min": 68,
+          "max": 80,
+          "target": 74
+        },
+        {
+          "name": "Quebra",
+          "unit": "%",
+          "min": 0,
+          "max": 8,
+          "target": 5
+        },
+        {
+          "name": "Tp1",
+          "unit": "%",
+          "min": 85,
+          "max": 100,
+          "target": 92
+        },
+        {
+          "name": "Resíduo",
+          "unit": "%",
+          "min": 0,
+          "max": 10,
+          "target": 6
+        },
+        {
+          "name": "Inteiros",
+          "unit": "%",
+          "min": 65,
+          "max": 75,
+          "target": 68.5
+        }
+      ],
+      "description": "Materia-prima recebimento e armazenagem"
+    },
+    {
+      "id": "cat-bica-a",
+      "name": "Bica Corrida Parbo Linha-A",
+      "fields": [
+        "Umidade",
+        "Polimento",
+        "Quebra"
+      ],
+      "specs": [
+        {
+          "name": "Umidade",
+          "unit": "%",
+          "min": 11.5,
+          "max": 13.2,
+          "target": 12.5
+        },
+        {
+          "name": "Polimento",
+          "unit": "graus",
+          "min": 32,
+          "max": 42,
+          "target": 36
+        },
+        {
+          "name": "Quebra",
+          "unit": "%",
+          "min": 0,
+          "max": 6.5,
+          "target": 4.5
+        }
+      ],
+      "description": "Fluxo intermediário da linha industrial A"
+    },
+    {
+      "id": "cat-branco-tp1",
+      "name": "Arroz Branco Tio Alemão Tipo 1",
+      "fields": [
+        "Umidade",
+        "Polimento",
+        "Quebra",
+        "Amarelados",
+        "Manchados"
+      ],
+      "specs": [
+        {
+          "name": "Umidade",
+          "unit": "%",
+          "min": 11.5,
+          "max": 13,
+          "target": 12.3
+        },
+        {
+          "name": "Polimento",
+          "unit": "graus",
+          "min": 38,
+          "max": 48,
+          "target": 42
+        },
+        {
+          "name": "Quebra",
+          "unit": "%",
+          "min": 0,
+          "max": 4,
+          "target": 2.8
+        },
+        {
+          "name": "Amarelados",
+          "unit": "%",
+          "min": 0,
+          "max": 1,
+          "target": 0.2
+        },
+        {
+          "name": "Manchados",
+          "unit": "%",
+          "min": 0,
+          "max": 1.5,
+          "target": 0.3
+        }
+      ],
+      "description": "Linha polida branca tipo 1"
+    }
+  ],
+  "records": [
+    {
+      "id": "demo-1",
+      "date": "2026-09-24",
+      "time": "08:30",
+      "categoryId": "cat-tio-alemao",
+      "values": {
+        "Umidade": "12,3",
+        "Polimento": "34",
+        "Quebra": "3,2"
+      },
+      "lotNumber": "LOTE-PARBO-2026-09A",
+      "shift": "1º Turno (06h - 14h)",
+      "productionLine": "Linha A - Parboilizado",
+      "sampleOrigin": "Empacotadora 1",
+      "inspector": "Inspetor Carlos Silva",
+      "status": "approved",
+      "notes": "Padrão visual excelente, grãos íntegros e brilho uniforme.",
+      "createdAt": "2026-09-24T08:30:00.000Z"
+    },
+    {
+      "id": "demo-2",
+      "date": "2026-09-24",
+      "time": "10:15",
+      "categoryId": "cat-casca-parbo",
+      "values": {
+        "Umidade": "12,8",
+        "Renda": "75,1",
+        "Quebra": "6,4",
+        "Tp1": "92,1",
+        "Resíduo": "7,9",
+        "Inteiros": "68,6"
+      },
+      "lotNumber": "RECEPCAO-CAM-8841",
+      "shift": "1º Turno (06h - 14h)",
+      "productionLine": "Tombador / Recepção",
+      "sampleOrigin": "Recepção Caminhão",
+      "inspector": "Ana Paula (Laboratório)",
+      "status": "approved",
+      "notes": "Carga liberada para descarga no Silo 03.",
+      "createdAt": "2026-09-24T10:15:00.000Z"
+    },
+    {
+      "id": "demo-3",
+      "date": "2026-09-24",
+      "time": "11:45",
+      "categoryId": "cat-bica-a",
+      "values": {
+        "Umidade": "12,5",
+        "Polimento": "37",
+        "Quebra": "5,5"
+      },
+      "lotNumber": "BICA-A-TURNO-1",
+      "shift": "1º Turno (06h - 14h)",
+      "productionLine": "Linha A - Parboilizado",
+      "sampleOrigin": "Bica Corrida",
+      "inspector": "Inspetor Carlos Silva",
+      "status": "approved",
+      "notes": "Polidor regulado com pressão estável.",
+      "createdAt": "2026-09-24T11:45:00.000Z"
+    },
+    {
+      "id": "demo-4",
+      "date": "2026-09-24",
+      "time": "14:20",
+      "categoryId": "cat-tio-alemao",
+      "values": {
+        "Umidade": "13,3",
+        "Polimento": "33",
+        "Quebra": "4,8"
+      },
+      "lotNumber": "LOTE-PARBO-2026-09B",
+      "shift": "2º Turno (14h - 22h)",
+      "productionLine": "Linha A - Parboilizado",
+      "sampleOrigin": "Empacotadora 2",
+      "inspector": "Marcos Encarregado",
+      "status": "warning",
+      "notes": "Umidade ligeiramente alta (13,3%). Ajustado secador para estabilizar.",
+      "createdAt": "2026-09-24T14:20:00.000Z"
+    }
+  ],
+  "lastUpdated": "2026-09-24T19:50:02.971Z"
+}
